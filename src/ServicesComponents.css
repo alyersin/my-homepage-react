@@ -1,0 +1,18 @@
+.ServicesComponents {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  gap: 10%;
+  border: 1px solid orange;
+}
+
+.web-design,
+.app-dev,
+.branding {
+  border: 1px solid orange;
+  background-color: #2b3034;
+}
+
+/*    #ffbd39      orange */

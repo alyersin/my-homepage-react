@@ -2,7 +2,6 @@
   display: flex;
   flex-direction: row;
   padding: 100px 40px;
-  border: 1px solid orange;
 }
 
 .InfoComponent {
@@ -13,7 +12,6 @@
   padding: 0 0 0 40px;
   color: #fff;
   width: 50%;
-  border: 1px solid orange;
 }
 
 .contact-btn {
@@ -28,7 +26,6 @@
 
 .ImageComponent {
   width: 50%;
-  border: 1px solid orange;
 }
 
 h2 {

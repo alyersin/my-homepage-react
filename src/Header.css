@@ -3,7 +3,6 @@
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  /* border: 1px solid orange; */
   background-color: #111;
   height: auto;
   margin: auto;
@@ -23,6 +22,11 @@
   justify-content: space-between;
   flex-direction: row;
   gap: 40px;
+}
+
+a:hover {
+  color: #ffbd39;
+  transition: 0.5s ease;
 }
 
 a {

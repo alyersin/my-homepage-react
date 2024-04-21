@@ -1,18 +1,35 @@
 .ServicesComponents {
+  font-family: "Poppins", sans-serif;
+
   display: flex;
   flex-direction: row;
   justify-content: center;
   text-align: center;
   align-items: center;
-  gap: 10%;
-  border: 1px solid orange;
+  gap: 8%;
 }
 
 .web-design,
 .app-dev,
 .branding {
-  border: 1px solid orange;
+  font-weight: 700;
   background-color: #2b3034;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 1rem;
+  width: 160px;
+  height: 160px;
+}
+
+.web-design:hover,
+.app-dev:hover,
+.branding:hover {
+  cursor: pointer;
+  transition: 0.3s ease;
+  background-color: #ffbd39;
+  color: #222;
 }
 
 /*    #ffbd39      orange */

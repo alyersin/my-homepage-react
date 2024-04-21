@@ -1,4 +1,6 @@
 import "./ToggleNight.css";
+import "./BorderTest.css";
+
 export default function ToggleNight() {
   return (
     <label class="switch">

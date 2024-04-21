@@ -1,10 +1,15 @@
 import "./ServicesComponents.css";
+import "./BorderTest.css";
+
 export default function ServicesComponents() {
   return (
     <div className="ServicesComponents">
-      <div className="web-design">Web Design</div>
-      <div className="app-dev">App Developing</div>
-      <div className="branding">Branding</div>
+      <div className="web-design">WEB DESIGN</div>
+      <div className="branding">BRANDING</div>
+      <div className="app-dev">
+        APP <br />
+        DEVELOPING
+      </div>
     </div>
   );
 }

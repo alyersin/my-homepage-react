@@ -1,4 +1,5 @@
 import "./InfoComponent.css";
+import "./BorderTest.css";
 
 export default function InfoComponent() {
   return (

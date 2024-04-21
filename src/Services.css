@@ -1,7 +1,7 @@
 .Services {
   display: flex;
   flex-direction: column;
-  border: 1px solid orange;
+  gap: 50px;
   color: #fff;
   font-size: 1.2rem;
 }
@@ -9,18 +9,20 @@
 .services-title {
   display: flex;
   flex-direction: column;
+  position: relative;
   margin: auto;
 }
 
-h2 {
-  border: 1px solid orange;
+.h2 {
   font-size: 6rem;
-  opacity: calc(14%);
+  opacity: calc(8%);
   margin: auto;
 }
 
-h3 {
-  border: 1px solid orange;
+.h3 {
+  position: relative;
   font-size: 3.2rem;
   margin: auto;
+
+  bottom: -66px;
 }

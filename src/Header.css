@@ -17,24 +17,20 @@
   text-decoration: none;
 }
 
-.ul-head {
+.nav-comp {
   display: flex;
-  justify-content: space-between;
   flex-direction: row;
-  gap: 40px;
-}
-
-a:hover {
-  color: #ffbd39;
-  transition: 0.5s ease;
-}
-
-a {
   text-decoration: none;
   color: #fff;
 }
 
-@media (max-width: 900px), (max-width: 768px) {
+.nav-comp:hover,
+.logo:hover {
+  color: #ffbd39;
+  transition: 0.5s ease;
+}
+
+@media (max-width: 768px) {
   .Header {
     width: auto;
     font-size: 10px;

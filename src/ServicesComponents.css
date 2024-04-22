@@ -1,17 +1,26 @@
 .ServicesComponents {
   font-family: "Poppins", sans-serif;
-
   display: flex;
-  flex-direction: row;
   justify-content: center;
   text-align: center;
   align-items: center;
   gap: 8%;
 }
 
-.web-design,
-.app-dev,
-.branding {
+/* .services-comp {
+  font-size: 3.2rem;
+  font-weight: 700;
+  margin: auto;
+}
+
+.services-big-comp {
+  font-size: 6rem;
+  font-weight: 700;
+  opacity: calc(6%);
+  margin: auto;
+} */
+
+.text-comp {
   font-weight: 700;
   background-color: #2b3034;
   display: flex;
@@ -23,9 +32,7 @@
   height: 160px;
 }
 
-.web-design:hover,
-.app-dev:hover,
-.branding:hover {
+.text-comp:hover {
   cursor: pointer;
   transition: 0.3s ease;
   background-color: #ffbd39;

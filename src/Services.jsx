@@ -2,15 +2,20 @@ import "./Services.css";
 import "./BorderTest.css";
 
 import ServicesComponents from "./ServicesComponents";
+import ServicesBigText from "./ServicesBigText";
 
 export default function Services() {
   return (
     <div className="Services">
-      <div className="services-title">
-        <h3 className="h3">Services</h3>
-        <h2 className="h2">Services</h2>
+      <div className="cont-one">
+        <ServicesBigText text="Services" />
+        <ServicesBigText text="Services" />
       </div>
-      <ServicesComponents />
+      <div className="cont-two">
+        <ServicesComponents text="WEB DESIGN" />
+        <ServicesComponents text="BRANDING" />
+        <ServicesComponents text="APP DEVELOPING" />
+      </div>
     </div>
   );
 }

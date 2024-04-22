@@ -1,28 +1,18 @@
 .Services {
   display: flex;
   flex-direction: column;
-  gap: 50px;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  margin: auto;
+  
+  gap: 0px;
   color: #fff;
-  font-size: 1.2rem;
 }
 
-.services-title {
+.cont-two {
   display: flex;
-  flex-direction: column;
-  position: relative;
-  margin: auto;
-}
-
-.h2 {
-  font-size: 6rem;
-  opacity: calc(8%);
-  margin: auto;
-}
-
-.h3 {
-  position: relative;
-  font-size: 3.2rem;
-  margin: auto;
-
-  bottom: -66px;
+  justify-content: center;
+  flex-direction: row;
+  gap: 24%;
 }

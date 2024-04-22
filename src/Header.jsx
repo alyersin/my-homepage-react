@@ -2,6 +2,7 @@ import { useState } from "react";
 import "./Header.css";
 import "./BorderTest.css";
 import ToggleNight from "./ToggleNight";
+import NavbarComponents from "./NavbarComponents";
 
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -12,26 +13,12 @@ export default function Header() {
 
   return (
     <div className="Header">
-      <a href="/" className="logo">
-        ERSIN
-      </a>
-      <ul className="ul-head">
-        <li>
-          <a href="/">Home</a>
-        </li>
-        <li>
-          <a href="/">About</a>
-        </li>
-        <li>
-          <a href="/">Projects</a>
-        </li>
-        <li>
-          <a href="/">Services</a>
-        </li>
-        <li>
-          <a href="/">Contact</a>
-        </li>
-      </ul>
+      <NavbarComponents logo="ERSIN" />
+      <NavbarComponents text="Home" />
+      <NavbarComponents text="About" />
+      <NavbarComponents text="Projects" />
+      <NavbarComponents text="Services" />
+      <NavbarComponents text="Contact" />
       {/* <div className="hamburger-icon">☰</div> */}
       <ToggleNight />
     </div>

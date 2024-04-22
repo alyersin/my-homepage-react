@@ -1,0 +1,12 @@
+.ServicesBigText {
+  font-size: 3.4rem;
+  font-weight: 700;
+}
+
+.ServicesBigText:nth-child(2) {
+  position: relative;
+  top: -76px;
+  font-size: 7rem;
+  font-weight: 700;
+  opacity: calc(8%);
+}
